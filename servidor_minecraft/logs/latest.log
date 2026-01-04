@@ -1,0 +1,4 @@
+[04Jan2026 00:04:48.761] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [xentros2: Teleported xentros2 to 496.500000, 42.500000, -231.500000]
+[04Jan2026 00:05:17.106] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2101ms or 42 ticks behind
+[04Jan2026 00:07:14.071] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: xentros2 lost connection: Disconnected
+[04Jan2026 00:07:14.071] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xentros2 left the game
