@@ -1,0 +1,701 @@
+[23Mar2026 00:15:16.356] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.4.16, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[23Mar2026 00:15:16.359] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.18 by Ubuntu; OS Linux arch amd64 version 6.8.0-1044-azure
+[23Mar2026 00:15:18.125] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[23Mar2026 00:15:18.184] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/holap23/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[23Mar2026 00:15:18.583] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/holap23/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.4.16/fmlcore-1.20.1-47.4.16.jar is missing mods.toml file
+[23Mar2026 00:15:18.585] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/holap23/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.4.16/javafmllanguage-1.20.1-47.4.16.jar is missing mods.toml file
+[23Mar2026 00:15:18.586] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/holap23/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.4.16/lowcodelanguage-1.20.1-47.4.16.jar is missing mods.toml file
+[23Mar2026 00:15:18.587] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/holap23/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.4.16/mclanguage-1.20.1-47.4.16.jar is missing mods.toml file
+[23Mar2026 00:15:18.932] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 16 dependencies adding them to mods collection
+[23Mar2026 00:15:21.682] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[23Mar2026 00:15:21.881] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [com.sonicether.soundphysics.MixinConnector]
+[23Mar2026 00:15:21.885] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[23Mar2026 00:15:22.111] [main/WARN] [mixin/]: Reference map 'puzzlesaccessapi.common.refmap.json' for puzzlesaccessapi.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[23Mar2026 00:15:22.150] [main/WARN] [mixin/]: Reference map 'modonomicon.refmap.json' for modonomicon.mixins.json could not be read. If this is a development environment you can ignore this message
+[23Mar2026 00:15:22.153] [main/WARN] [mixin/]: Reference map 'modonomicon.refmap.json' for modonomicon.forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[23Mar2026 00:15:22.206] [main/INFO] [Puzzles Lib/]: Loading 81 mods:
+	- alexscaves 2.0.2
+	- alexsmobs 1.22.9
+	- ancient_golems 1.0.3.5
+	- appleskin 2.5.1+mc1.20.1
+	- aquaculture 2.5.2
+	- architectury 9.2.14
+	- artifacts 9.5.16
+		\-- expandability 9.0.4
+	- balm 7.3.9
+		\-- kuma_api 20.1.8
+	- bountiful 6.0.4+1.20.1
+	- brewery 1.1.9
+	- butchery 4.6
+	- caelus 3.2.0+1.20.1
+	- chococraft 0.9.12
+	- citadel 2.6.3
+	- cloth_config 11.1.136
+	- curios 5.14.1+1.20.1
+	- cyclopscore 1.19.5
+	- doapi 1.2.15
+		\-- terraform 7.0.1
+	- dynamiclights 1.9+mod
+	- elevatorid 1.20.1-lex-1.9
+	- emotecraft 2.2.7-b.build.50
+	- enchantinginfuser 8.0.3
+	- epicfight 20.14.6
+	- evilcraft 1.2.48
+		\-- evilcraftcompat 1.2.48
+	- farmersdelight 1.20.1-1.2.9
+	- forge 47.4.16
+	- friendsandfoes 3.0.9
+	- galosphere 1.20.1-1.4.1
+	- geckolib 4.4.9
+	- gobber2 2.8.9
+	- golems 20.1.0.2
+	- iceandfire 2.1.13-1.20.1
+	- interaction_boxes 0.693
+	- inventoryhud 3.4.26
+	- inventoryprofilesnext 1.10.19
+	- irons_spellbooks 1.20.1-3.4.0.5
+	- jade 11.13.2+forge
+	- jei 15.20.0.129
+	- kambrik 6.1.1+1.20.1
+	- kotlinforforge 4.12.0
+	- libipn 4.0.2
+	- lolmcv 1.5.6
+	- mca 7.6.13+1.20.1
+	- minecraft 1.20.1
+	- modonomicon 1.79.3
+	- mowziesmobs 1.7.3
+	- mr_animated_doors 1.0
+	- mr_dungeons_andtaverns 3.0.3.f
+	- myserveriscompatible 1.0
+	- naturalist 5.0pre3
+		\-- midnightlib 1.4.2
+	- nullscape 1.2.8
+	- occultism 1.157.0
+	- octolib 0.5.0.1
+	- playeranimator 1.0.2-rc1+1.20
+	- puzzleslib 8.1.33
+		|-- mixinextras 0.4.1
+		\-- puzzlesaccessapi 20.1.1
+	- quad 1.2.9
+	- relics 0.8.0.11
+	- rightclickharvest 3.2.3+1.20.1-forge
+	- securitycraft 1.10.1
+	- smartbrainlib 1.15
+	- sophisticatedbackpacks 3.20.5.1044
+	- sophisticatedcore 0.6.26.668
+	- sound_physics_remastered 1.20.1-1.4.5
+	- taxbt 1.0.2
+	- terralith 2.5.4
+	- theorcs 1.0-FORGE-1.20.x
+	- tht 6.2.11.3
+	- tombstone 8.8.6
+	- uniquedungeons 0.70.3
+	- vinery 1.4.41
+	- weaponmaster 1.4.3-1.20.1
+	- wom 2.0.15
+	- worldedit 7.2.15+6463-5ca4dff
+	- xaerominimap 25.3.5
+		\-- xaerolib 1.0.45
+	- xaeroworldmap 1.40.6
+[23Mar2026 00:15:23.418] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER
+[23Mar2026 00:15:23.418] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/Screen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER)
+[23Mar2026 00:15:23.421] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.Screen was not found relics.mixins.json:ScreenMixin
+[23Mar2026 00:15:24.618] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[23Mar2026 00:15:28.607] [main/WARN] [mixin/]: @Final field f_31427_:[I in mixins.epicfight.json:common.MixinWitherBoss should be final
+[23Mar2026 00:15:28.607] [main/WARN] [mixin/]: @Final field f_31428_:[I in mixins.epicfight.json:common.MixinWitherBoss should be final
+[23Mar2026 00:15:31.022] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.LivingEntity from class yesman.epicfight.world.capabilities.entitypatch.LivingEntityPatch
+[23Mar2026 00:15:31.023] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.LivingEntity from class yesman.epicfight.world.capabilities.entitypatch.LivingEntityPatch
+[23Mar2026 00:15:31.023] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.LivingEntity from class yesman.epicfight.world.capabilities.entitypatch.LivingEntityPatch
+[23Mar2026 00:15:31.023] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.LivingEntity from class yesman.epicfight.world.capabilities.entitypatch.LivingEntityPatch
+[23Mar2026 00:15:31.757] [main/WARN] [mixin/]: Mixin alexscaves.mixins.json:SwampHutPieceMixin has multiple constructors, (Lnet/minecraft/world/level/levelgen/structure/pieces/StructurePieceType;IIIIIILnet/minecraft/core/Direction;)V was selected
+
+[23Mar2026 00:15:32.843] [modloading-worker-0/INFO] [dynamiclights/]: [Dynamic Lights] Registering server started event ...
+[23Mar2026 00:15:32.909] [modloading-worker-0/INFO] [xaero.lib.XaeroLib/]: Registering common data for channel xaerolib:main!
+[23Mar2026 00:15:33.012] [modloading-worker-0/INFO] [xaero.lib.XaeroLib/]: Loading primary common config for channel xaerolib:main!
+[23Mar2026 00:15:33.018] [modloading-worker-0/INFO] [xaero.lib.XaeroLib/]: Loading server config profiles for channel xaerolib:main!
+[23Mar2026 00:15:33.067] [modloading-worker-0/INFO] [xaero.map.WorldMap/]: Registering common data for channel xaeroworldmap:main!
+[23Mar2026 00:15:33.104] [modloading-worker-0/INFO] [xaero.map.WorldMap/]: Loading primary common config for channel xaeroworldmap:main!
+[23Mar2026 00:15:33.105] [modloading-worker-0/INFO] [xaero.map.WorldMap/]: Loading server config profiles for channel xaeroworldmap:main!
+[23Mar2026 00:15:33.198] [modloading-worker-0/INFO] [epicfight/]: Loaded mod compat: GeckolibCompat
+[23Mar2026 00:15:33.207] [modloading-worker-0/INFO] [epicfight/]: Loaded mod compat: IceAndFireCompat
+[23Mar2026 00:15:33.208] [modloading-worker-0/INFO] [epicfight/]: Loaded mod compat: CuriosCompat
+[23Mar2026 00:15:33.218] [modloading-worker-0/INFO] [epicfight/]: Loaded mod compat: PlayerAnimatorCompat
+[23Mar2026 00:15:33.356] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[23Mar2026 00:15:33.357] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/42a7ad70b1cc371599a0eff744096b8a
+[23Mar2026 00:15:33.363] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/74a5e841822a3a87854ae896a33430d6
+[23Mar2026 00:15:33.364] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/eb3d1e2748533430848cadf0f37c7e9c
+[23Mar2026 00:15:33.368] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/91c8520f19f93b3e8b6a727568e194ab
+[23Mar2026 00:15:33.370] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/8c2784d778293fd482ed84b8aa5fedb9
+[23Mar2026 00:15:33.371] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/ea038224ea783d40b2863f52239e2604
+[23Mar2026 00:15:33.376] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/97ad64b7ecaf33209991c4f031501a58
+[23Mar2026 00:15:33.965] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.4.16, for MC 1.20.1 with MCP 20230612.114412
+[23Mar2026 00:15:33.965] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.4.16 Initialized
+[23Mar2026 00:15:34.478] [modloading-worker-0/INFO] [libIPN/]: [libIPN] libIPN - init in Kotlin
+[23Mar2026 00:15:34.593] [modloading-worker-0/INFO] [thedarkcolour.kotlinforforge.test.KotlinForForge/]: Kotlin For Forge Enabled!
+[23Mar2026 00:15:34.760] [modloading-worker-0/INFO] [xaero.common.HudMod/]: Registering common data for channel xaerominimap:main!
+[23Mar2026 00:15:34.817] [modloading-worker-0/INFO] [xaero.common.HudMod/]: Loading primary common config for channel xaerominimap:main!
+[23Mar2026 00:15:34.821] [modloading-worker-0/INFO] [xaero.common.HudMod/]: Loading server config profiles for channel xaerominimap:main!
+[23Mar2026 00:15:35.813] [modloading-worker-0/INFO] [Inventory Profiles Next/]: [Inventory Profiles Next] Inventory Profiles Next - init in Kotlin
+[23Mar2026 00:15:36.333] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id brewery:alcohol_sync_request
+[23Mar2026 00:15:36.336] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id brewery:drink_alcohol
+[23Mar2026 00:15:36.500] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for puzzleslib:main
+[23Mar2026 00:15:36.731] [modloading-worker-0/INFO] [Quad/]: [Quad] Initialising the Quad mod power! >:P
+[23Mar2026 00:15:36.739] [modloading-worker-0/INFO] [be.florens.expandability.ExpandAbility/]: ExpandAbility here, who dis?
+[23Mar2026 00:15:36.792] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for enchantinginfuser:main
+[23Mar2026 00:15:47.404] [modloading-worker-0/INFO] [com.sky.weaponmaster.WeaponMaster/]: Total varients loaded: 6425544
+[23Mar2026 00:15:47.405] [modloading-worker-0/INFO] [com.sky.weaponmaster.WeaponMaster/]: Total varients loaded (inc. passives + abilities): 3675411168
+[23Mar2026 00:15:51.383] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / vinery:mule] was not realized!
+[23Mar2026 00:15:51.383] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / mca:male_zombie_villager] was not realized!
+[23Mar2026 00:15:51.383] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / mca:female_villager] was not realized!
+[23Mar2026 00:15:51.383] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / vinery:wandering_winemaker] was not realized!
+[23Mar2026 00:15:51.383] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / mca:female_zombie_villager] was not realized!
+[23Mar2026 00:15:51.383] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / mca:grim_reaper] was not realized!
+[23Mar2026 00:15:51.384] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / mca:male_villager] was not realized!
+[23Mar2026 00:15:51.384] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / brewery:beer_elemental] was not realized!
+[23Mar2026 00:15:51.666] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / vinery:mule] was not realized!
+[23Mar2026 00:15:51.667] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / vinery:wandering_winemaker] was not realized!
+[23Mar2026 00:15:51.667] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / brewery:beer_elemental] was not realized!
+[23Mar2026 00:15:51.668] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / vinery:mule] was not realized!
+[23Mar2026 00:15:51.668] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / vinery:wandering_winemaker] was not realized!
+[23Mar2026 00:15:51.668] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / brewery:beer_elemental] was not realized!
+[23Mar2026 00:15:51.670] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / vinery:mule] was not realized!
+[23Mar2026 00:15:51.670] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / vinery:wandering_winemaker] was not realized!
+[23Mar2026 00:15:51.671] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / brewery:beer_elemental] was not realized!
+[23Mar2026 00:15:51.674] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / brewery:beer_elemental] was not realized!
+[23Mar2026 00:15:51.678] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / brewery:beer_elemental] was not realized!
+[23Mar2026 00:15:51.775] [main/INFO] [evilcraft/]: 2205 possible Broom base combinations are ready for flying!
+[23Mar2026 00:15:52.468] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class yesman.epicfight.world.capabilities.entitypatch.player.PlayerPatch
+[23Mar2026 00:15:52.473] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.becks.uniquedungeons.common.entities.city_snow_mobs.catapults.CitySnowCatapult from class com.becks.uniquedungeons.common.entities.city_snow_mobs.big_bob.CitySnowBigBob
+[23Mar2026 00:15:52.473] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.becks.uniquedungeons.common.entities.city_snow_mobs.catapults.CitySnowCatapult from class com.becks.uniquedungeons.common.entities.city_snow_mobs.big_bob.CitySnowBigBob
+[23Mar2026 00:15:52.497] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.TamableAnimal from class reascer.wom.world.entity.mob.EnderHand
+[23Mar2026 00:15:52.497] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.TamableAnimal from class reascer.wom.world.entity.mob.TargetingHelper
+[23Mar2026 00:15:52.549] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.github.alexmodguy.alexscaves.server.entity.living.TremorzillaEntity from class com.github.alexmodguy.alexscaves.server.entity.living.LicowitchEntity
+[23Mar2026 00:15:52.572] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[23Mar2026 00:15:52.572] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[23Mar2026 00:15:52.572] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[23Mar2026 00:15:52.573] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[23Mar2026 00:15:52.573] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[23Mar2026 00:15:52.573] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[23Mar2026 00:15:52.573] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[23Mar2026 00:15:52.573] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CEnumParameter
+[23Mar2026 00:15:52.575] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[23Mar2026 00:15:52.575] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[23Mar2026 00:15:52.575] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[23Mar2026 00:15:52.575] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[23Mar2026 00:15:52.575] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[23Mar2026 00:15:52.576] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[23Mar2026 00:15:52.576] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[23Mar2026 00:15:52.576] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[23Mar2026 00:15:52.576] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[23Mar2026 00:15:52.576] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[23Mar2026 00:15:52.577] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[23Mar2026 00:15:52.577] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CEnumParameter
+[23Mar2026 00:15:52.577] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[23Mar2026 00:15:52.581] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[23Mar2026 00:15:52.581] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CEnumParameter
+[23Mar2026 00:15:52.581] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[23Mar2026 00:15:52.581] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CEnumParameter
+[23Mar2026 00:15:52.581] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CEnumParameter
+[23Mar2026 00:15:52.582] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[23Mar2026 00:15:52.582] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[23Mar2026 00:15:52.582] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[23Mar2026 00:15:52.582] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[23Mar2026 00:15:52.582] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[23Mar2026 00:15:52.584] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[23Mar2026 00:15:52.588] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[23Mar2026 00:15:52.588] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[23Mar2026 00:15:52.590] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[23Mar2026 00:15:52.590] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[23Mar2026 00:15:52.590] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[23Mar2026 00:15:52.591] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.GrimReaperEntity from class forge.net.mca.util.network.datasync.CEnumParameter
+[23Mar2026 00:15:52.593] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.klikli_dev.occultism.common.entity.spirit.DjinniEntity from class com.klikli_dev.occultism.common.entity.spirit.FoliotEntity
+[23Mar2026 00:15:52.612] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[23Mar2026 00:15:52.612] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[23Mar2026 00:15:52.612] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[23Mar2026 00:15:52.612] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[23Mar2026 00:15:52.613] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[23Mar2026 00:15:52.613] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[23Mar2026 00:15:52.613] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[23Mar2026 00:15:52.613] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[23Mar2026 00:15:52.613] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[23Mar2026 00:15:52.757] [modloading-worker-0/INFO] [com.becks.uniquedungeons.UniqueDungeons/]: HELLO FROM COMMON SETUP
+[23Mar2026 00:15:52.763] [modloading-worker-0/INFO] [com.becks.uniquedungeons.UniqueDungeons/]: DIRT BLOCK >> minecraft:dirt
+[23Mar2026 00:15:52.764] [modloading-worker-0/INFO] [xaero.lib.XaeroLib/]: Loading XaeroLib common 1/2!
+[23Mar2026 00:15:52.777] [modloading-worker-0/INFO] [dynamiclights/]: [Dynamic Lights] MidnightLib detected!
+[23Mar2026 00:15:52.787] [modloading-worker-0/INFO] [dynamiclights/]: [Dynamic Lights] Loaded Dynamic Lights by Tschipcraft successfully!
+[23Mar2026 00:15:52.916] [modloading-worker-0/INFO] [evilcraft/]: Registered packet handler.
+[23Mar2026 00:15:53.222] [modloading-worker-0/INFO] [io.github.jamalam360.rightclickharvest.RightClickHarvestModInit/]: Initialized
+[23Mar2026 00:15:53.656] [modloading-worker-0/INFO] [com.klikli_dev.occultism.Occultism/]: Common setup complete.
+[23Mar2026 00:15:53.879] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cyclopscore] Starting version check at https://raw.githubusercontent.com/CyclopsMC/Versions/master/forge_update/cyclops-core.json
+[23Mar2026 00:15:54.196] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cyclopscore] Found status: OUTDATED Current: 1.19.5 Target: 1.22.0
+[23Mar2026 00:15:54.197] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [dynamiclights] Starting version check at https://api.modrinth.com/updates/7YjclEGc/forge_updates.json?forge=only
+[23Mar2026 00:15:54.211] [modloading-worker-0/INFO] [com.sk89q.worldedit.extension.platform.PlatformManager/]: Got request to register class com.sk89q.worldedit.forge.ForgePlatform with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@26093511]
+[23Mar2026 00:15:54.217] [modloading-worker-0/INFO] [com.sk89q.worldedit.forge.ForgeWorldEdit/]: WorldEdit for Forge (version 7.2.15+6463-5ca4dff) is loaded
+[23Mar2026 00:15:54.383] [main/INFO] [com.klikli_dev.occultism.Occultism/]: Registered compostable Items
+[23Mar2026 00:15:54.386] [modloading-worker-0/INFO] [xaero.lib.XaeroLib/]: Loading XaeroLib server 1/2!
+[23Mar2026 00:15:54.388] [modloading-worker-0/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[23Mar2026 00:15:54.387] [modloading-worker-0/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 1/2 (Server)
+[23Mar2026 00:15:54.389] [modloading-worker-0/INFO] [com.klikli_dev.occultism.Occultism/]: Dedicated server setup complete.
+[23Mar2026 00:15:54.392] [main/INFO] [xaero.lib.XaeroLib/]: Loading XaeroLib common 2/2!
+[23Mar2026 00:15:54.393] [main/INFO] [xaero.lib.XaeroLib/]: Loading XaeroLib server 2/2!
+[23Mar2026 00:15:54.393] [main/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 2/2 (Server)
+[23Mar2026 00:15:54.393] [main/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[23Mar2026 00:15:54.408] [modloading-worker-0/INFO] [io.redspace.ironsspellbooks.IronsSpellbooks/]: Got IMC []
+[23Mar2026 00:15:54.474] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
+[23Mar2026 00:15:54.476] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [dynamiclights] Found status: UP_TO_DATE Current: 1.9+mod Target: null
+[23Mar2026 00:15:54.476] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [evilcraft] Starting version check at https://raw.githubusercontent.com/CyclopsMC/Versions/master/forge_update/evilcraft.json
+[23Mar2026 00:15:54.495] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [evilcraft] Found status: OUTDATED Current: 1.2.48 Target: 1.2.59
+[23Mar2026 00:15:54.496] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzlesaccessapi] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/puzzlesaccessapi.json
+[23Mar2026 00:15:54.509] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzlesaccessapi] Found status: BETA Current: 20.1.1 Target: null
+[23Mar2026 00:15:54.510] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [sound_physics_remastered] Starting version check at https://update.maxhenkel.de/forge/sound_physics_remastered
+[23Mar2026 00:15:54.512] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
+[23Mar2026 00:15:54.517] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
+[23Mar2026 00:15:54.520] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at com.mcmoddev.golems.integration.JadeDescriptionManager
+[23Mar2026 00:15:54.520] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.geforcemods.securitycraft.compat.hudmods.JadeDataProvider
+[23Mar2026 00:15:54.523] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at ovh.corail.tombstone.compatibility.IntegrationJade
+[23Mar2026 00:15:55.389] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [sound_physics_remastered] Found status: OUTDATED Current: 1.20.1-1.4.5 Target: 1.20.1-1.5.1
+[23Mar2026 00:15:55.390] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[23Mar2026 00:15:55.515] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.4.16 Target: 47.4.18
+[23Mar2026 00:15:55.515] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
+[23Mar2026 00:15:55.614] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Found status: UP_TO_DATE Current: 1.10.1 Target: null
+[23Mar2026 00:15:55.614] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtaverns] Starting version check at https://api.modrinth.com/updates/tpehi7ww/forge_updates.json
+[23Mar2026 00:15:55.682] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtaverns] Found status: OUTDATED Current: 3.0.3.f Target: 3.0.3.f+mod
+[23Mar2026 00:15:55.683] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [inventoryhud] Starting version check at https://raw.githubusercontent.com/DmitryLovin/pluginUpdate/master/invupdate.json
+[23Mar2026 00:15:55.696] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [inventoryhud] Found status: UP_TO_DATE Current: 3.4.26 Target: null
+[23Mar2026 00:15:55.696] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Starting version check at https://raw.githubusercontent.com/Corail31/tombstone_lite/master/update.json
+[23Mar2026 00:15:55.705] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Found status: OUTDATED Current: 8.8.6 Target: 9.0.9
+[23Mar2026 00:15:55.706] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [occultism] Starting version check at https://raw.githubusercontent.com/klikli-dev/occultism/meta/updates.json
+[23Mar2026 00:15:55.745] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [occultism] Found status: BETA Current: 1.157.0 Target: null
+[23Mar2026 00:15:55.745] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/puzzleslib.json
+[23Mar2026 00:15:55.764] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Found status: UP_TO_DATE Current: 8.1.33 Target: null
+[23Mar2026 00:15:55.764] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_animated_doors] Starting version check at https://api.modrinth.com/updates/EuloLapn/forge_updates.json
+[23Mar2026 00:15:55.791] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_animated_doors] Found status: OUTDATED Current: 1.0 Target: 1.20+mod
+[23Mar2026 00:15:55.791] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [enchantinginfuser] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/enchantinginfuser.json
+[23Mar2026 00:15:55.804] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [enchantinginfuser] Found status: UP_TO_DATE Current: 8.0.3 Target: null
+[23Mar2026 00:15:58.135] [main/INFO] [epicfight/]: Data keys [epicfight:basic_attack_active, epicfight:combo_counter] for epicfight:basic_attack
+[23Mar2026 00:15:58.136] [main/INFO] [epicfight/]: Data keys [epicfight:penalty_restore_counter, epicfight:penalty] for epicfight:guard
+[23Mar2026 00:15:58.136] [main/INFO] [epicfight/]: Data keys [epicfight:parry_motion_counter, epicfight:penalty_restore_counter, epicfight:penalty, epicfight:last_active] for epicfight:parrying
+[23Mar2026 00:15:58.136] [main/INFO] [epicfight/]: Data keys [epicfight:penalty_restore_counter, epicfight:penalty] for epicfight:impact_guard
+[23Mar2026 00:15:58.136] [main/INFO] [epicfight/]: Data keys [epicfight:resisting_damage_type, epicfight:stacks, epicfight:tick_record] for epicfight:adaptive_skin
+[23Mar2026 00:15:58.136] [main/INFO] [epicfight/]: Data keys [epicfight:tick_record] for epicfight:adrenaline_fiend
+[23Mar2026 00:15:58.136] [main/INFO] [epicfight/]: Data keys [epicfight:stacks, epicfight:entity_id] for epicfight:bonebreaker
+[23Mar2026 00:15:58.137] [main/INFO] [epicfight/]: Data keys [epicfight:entity_id, epicfight:tick_record] for epicfight:vengeance
+[23Mar2026 00:15:58.137] [main/INFO] [epicfight/]: Data keys [epicfight:fall_distance, epicfight:slam_protect_next_fall] for epicfight:meteor_slam
+[23Mar2026 00:15:58.137] [main/INFO] [epicfight/]: Data keys [epicfight:stacks] for epicfight:revelation
+[23Mar2026 00:15:58.137] [main/INFO] [epicfight/]: Data keys [epicfight:slam_protect_next_fall] for epicfight:demolition_leap
+[23Mar2026 00:15:58.137] [main/INFO] [epicfight/]: Data keys [epicfight:jump_key_pressed_last_tick, epicfight:jump_count, epicfight:slam_protect_next_fall] for epicfight:phantom_ascent
+[23Mar2026 00:15:58.137] [main/INFO] [epicfight/]: Data keys [epicfight:last_hit_count] for epicfight:grasping_spire
+[23Mar2026 00:15:58.137] [main/INFO] [epicfight/]: Data keys [epicfight:sheath] for epicfight:battojutsu_passive
+[23Mar2026 00:15:58.137] [main/INFO] [epicfight/]: Data keys [epicfight:sheath] for epicfight:battojutsu
+[23Mar2026 00:15:58.137] [main/INFO] [epicfight/]: Data keys [epicfight:combo_counter] for epicfight:blade_rush
+[23Mar2026 00:15:58.138] [main/INFO] [epicfight/]: Data keys [epicfight:thrown_trident_entity_id] for epicfight:everlasting_allegiance
+[23Mar2026 00:15:58.138] [main/INFO] [epicfight/]: Data keys [wom:target_id] for wom:ender_obscuris
+[23Mar2026 00:15:58.138] [main/INFO] [epicfight/]: Data keys [wom:timer, wom:dodge, wom:timer_refresh] for wom:dodge_master
+[23Mar2026 00:15:58.138] [main/INFO] [epicfight/]: Data keys [wom:cooldown, wom:registered_health, wom:active, wom:timer, wom:dodge, wom:registered_position, wom:timer_refresh] for wom:time_travel
+[23Mar2026 00:15:58.138] [main/INFO] [epicfight/]: Data keys [wom:cooldown] for wom:punishment_kick
+[23Mar2026 00:15:58.138] [main/INFO] [epicfight/]: Data keys [wom:parrying, wom:last_active, epicfight:penalty_restore_counter, wom:consumprion_value, epicfight:penalty] for wom:counter_attack
+[23Mar2026 00:15:58.138] [main/INFO] [epicfight/]: Data keys [wom:cooldown, wom:holding_stance, epicfight:penalty_restore_counter, wom:timer, wom:consumprion_value, wom:vengence_duration, wom:charge, epicfight:penalty, wom:timer_refresh] for wom:vengeful_parry
+[23Mar2026 00:15:58.138] [main/INFO] [epicfight/]: Data keys [wom:parrying, wom:cooldown, epicfight:penalty_restore_counter, wom:charge, epicfight:penalty] for wom:perfect_bulwark
+[23Mar2026 00:15:58.139] [main/INFO] [epicfight/]: Data keys [wom:cycle, wom:charge] for wom:soul_protection
+[23Mar2026 00:15:58.140] [main/INFO] [epicfight/]: Data keys [wom:cycle, wom:charge] for wom:shulker_cloak
+[23Mar2026 00:15:58.140] [main/INFO] [epicfight/]: Data keys [epicfight:penalty_restore_counter, wom:active, wom:timer, epicfight:penalty] for wom:buster_parade
+[23Mar2026 00:15:58.140] [main/INFO] [epicfight/]: Data keys [wom:duree, wom:active, wom:timer, wom:timer_refresh] for wom:pain_anticipation
+[23Mar2026 00:15:58.140] [main/INFO] [epicfight/]: Data keys [wom:duree, wom:active, wom:timer, wom:timer_refresh] for wom:latent_retribution
+[23Mar2026 00:15:58.141] [main/INFO] [epicfight/]: Data keys [wom:rate, wom:power] for wom:critical_knowledge
+[23Mar2026 00:15:58.141] [main/INFO] [epicfight/]: Data keys [wom:max_shield, wom:cooldown, wom:recovery_rate] for wom:heart_shield
+[23Mar2026 00:15:58.141] [main/INFO] [epicfight/]: Data keys [wom:melody_index, wom:saved_elapsed_time, wom:step] for wom:dancing_blade
+[23Mar2026 00:15:58.141] [main/INFO] [epicfight/]: Data keys [wom:cycle, wom:duree, wom:active, wom:timer, wom:timer_refresh, wom:stage] for wom:meditation
+[23Mar2026 00:15:58.142] [main/INFO] [epicfight/]: Data keys [wom:cooldown] for wom:dopamine
+[23Mar2026 00:15:58.142] [main/INFO] [epicfight/]: Data keys [wom:last_active] for wom:manipulator
+[23Mar2026 00:15:58.142] [main/INFO] [epicfight/]: Data keys [wom:stack, wom:rate, wom:power, wom:timer] for wom:lethal_focus
+[23Mar2026 00:15:58.142] [main/INFO] [epicfight/]: Data keys [wom:wall_running, wom:wall_glide, wom:angle, wom:jump_key_up, wom:timer, wom:timer_refresh] for wom:spider_techniques
+[23Mar2026 00:15:58.142] [main/INFO] [epicfight/]: Data keys [wom:mermaid_movement, wom:cooldown, wom:diving, wom:water_dashing, wom:crawling, wom:jump_key_up, wom:consumprion_value] for wom:aqua_maneuvre
+[23Mar2026 00:15:58.142] [main/INFO] [epicfight/]: Data keys [wom:buffing, wom:wall_running, wom:wall_glide, wom:verso, wom:active, wom:timer, wom:consumprion_value, wom:stage] for wom:natural_sprinter
+[23Mar2026 00:15:58.142] [main/INFO] [epicfight/]: Data keys [wom:timer] for wom:lunatic_vivacity
+[23Mar2026 00:15:58.142] [main/INFO] [epicfight/]: Data keys [wom:registered_health, wom:timer, wom:consumprion_value] for wom:voodoo_magic
+[23Mar2026 00:15:58.142] [main/INFO] [epicfight/]: Data keys [wom:target_id, wom:target_distance] for wom:back_and_forth
+[23Mar2026 00:15:58.143] [main/INFO] [epicfight/]: Data keys [wom:cooldown, wom:combo] for wom:shooting_style
+[23Mar2026 00:15:58.143] [main/INFO] [epicfight/]: Data keys [wom:active, wom:timer] for wom:proximity_exploiter
+[23Mar2026 00:15:58.143] [main/INFO] [epicfight/]: Data keys [wom:stack, wom:timer] for wom:all_eyes_on_you
+[23Mar2026 00:15:58.143] [main/INFO] [epicfight/]: Data keys [wom:stack, wom:timer] for wom:all_eyes_on_me
+[23Mar2026 00:15:58.143] [main/INFO] [epicfight/]: Data keys [wom:cooldown, wom:timer] for wom:avatar_of_might
+[23Mar2026 00:15:58.143] [main/INFO] [epicfight/]: Data keys [wom:stack, wom:active, wom:attacks] for wom:agony_plunge
+[23Mar2026 00:15:58.143] [main/INFO] [epicfight/]: Data keys [wom:charging, wom:movespeed, wom:charged_attack, wom:active, wom:timer, wom:charging_time, wom:saved_charge, wom:timer_refresh, wom:charged] for wom:torment_passive
+[23Mar2026 00:15:58.143] [main/INFO] [epicfight/]: Data keys [wom:active, wom:timer, wom:timer_refresh] for wom:true_berserk
+[23Mar2026 00:15:58.143] [main/INFO] [epicfight/]: Data keys [wom:stack] for wom:herrscher_passive
+[23Mar2026 00:15:58.143] [main/INFO] [epicfight/]: Data keys [wom:buffing, wom:verso, wom:buffed, wom:expiation, wom:strenght, wom:timer, wom:timer_refresh, wom:redemptioon] for wom:plunder_perdition
+[23Mar2026 00:15:58.144] [main/INFO] [epicfight/]: Data keys [wom:sheath] for wom:satsujin_passive
+[23Mar2026 00:15:58.144] [main/INFO] [epicfight/]: Data keys [wom:charging, wom:stack, wom:second_draw, wom:active, wom:timedslash, wom:timer_refresh, wom:cooldown, wom:holding_stance, wom:frequency, wom:timer, wom:damage, wom:saved_charge, wom:charge, wom:attacks] for wom:sakura_state
+[23Mar2026 00:15:58.144] [main/INFO] [epicfight/]: Data keys [wom:cooldown, wom:combo, wom:reload_cooldown, wom:nofalldamage, wom:using_item, wom:shoot, wom:zoom] for wom:ender_blast
+[23Mar2026 00:15:58.144] [main/INFO] [epicfight/]: Data keys [wom:cooldown, wom:combo, wom:reload_cooldown, wom:nofalldamage, wom:using_item, wom:shoot, wom:zoom, wom:side] for wom:ender_fusion
+[23Mar2026 00:15:58.144] [main/INFO] [epicfight/]: Data keys [wom:parrying, wom:cooldown, wom:combo, wom:holding_stance, wom:gesetz_sprengkopf, wom:guard_point, wom:guard_point_result, wom:charging_time, wom:charged] for wom:regierung
+[23Mar2026 00:15:58.144] [main/INFO] [epicfight/]: Data keys [wom:crescent, wom:echo, wom:timer, wom:timer_refresh, wom:lunar_eclipse_stack] for wom:lunar_eclipse
+[23Mar2026 00:15:58.144] [main/INFO] [epicfight/]: Data keys [wom:idle, wom:verso] for wom:lunar_echo_passive
+[23Mar2026 00:15:58.144] [main/INFO] [epicfight/]: Data keys [wom:ascending, wom:zoom_cooldown, wom:witheraftereffect, wom:blackhole_active, wom:shoot_cooldown, wom:darkness_target_hited, wom:blackhole, wom:darkness_target_vec, wom:blackhole_vec, wom:active, wom:shoot, wom:darkness_activate_portal, wom:zoom, wom:timer_refresh, wom:darkness_target, wom:darkness_portal_timer, wom:serius_focus, wom:serius_focus_cooldown, wom:blackhole_timer, wom:darkness_portal_angle, wom:darkness_portal_vec, wom:witherccatharsis, wom:darkness_target_reaped, wom:timer] for wom:demonic_ascension
+[23Mar2026 00:15:58.145] [main/INFO] [epicfight/]: Data keys [wom:blink, wom:basic_attack, wom:withercurse, wom:idle, wom:catharsis, wom:lapse, wom:particle] for wom:demon_mark_passive
+[23Mar2026 00:15:58.145] [main/INFO] [epicfight/]: Data keys [wom:charging, wom:solar_obscuridad_ta_timer, wom:heat_level, wom:heating_speed, wom:timed_attack, wom:solar_infernio, wom:timer_refresh, wom:cycle, wom:stored_heat_level, wom:solar_crematorio, wom:timer, wom:particle, wom:charge, wom:solar_obscuridad] for wom:solar_arcano
+[23Mar2026 00:15:58.145] [main/INFO] [epicfight/]: Data keys [wom:charging, wom:solar_obscuridad_ta_timer, wom:heat_level, wom:heating_speed, wom:timed_attack, wom:solar_infernio, wom:timer_refresh, wom:cycle, wom:stored_heat_level, wom:solar_crematorio, wom:timer, wom:particle, wom:charge, wom:solar_obscuridad] for wom:solar_passive
+[23Mar2026 00:15:58.146] [main/INFO] [epicfight/]: Data keys [wom:serius_focus, wom:serius_focus_cooldown] for wom:rechargement
+[23Mar2026 00:15:58.146] [main/INFO] [epicfight/]: Data keys [wom:shell_number, wom:shell_delay, wom:bullet_loaded_old, wom:shell_anim, wom:active, wom:bullet_overloaded, wom:bullet_loaded, wom:super_reload] for wom:napoleon_passive
+[23Mar2026 00:15:58.182] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[23Mar2026 00:16:00.757] [main/INFO] [epicfight/]: Data keys [epicfight:basic_attack_active, epicfight:combo_counter] for epicfight:basic_attack
+[23Mar2026 00:16:00.758] [main/INFO] [epicfight/]: Data keys [epicfight:penalty_restore_counter, epicfight:penalty] for epicfight:guard
+[23Mar2026 00:16:00.758] [main/INFO] [epicfight/]: Data keys [epicfight:parry_motion_counter, epicfight:penalty_restore_counter, epicfight:penalty, epicfight:last_active] for epicfight:parrying
+[23Mar2026 00:16:00.758] [main/INFO] [epicfight/]: Data keys [epicfight:penalty_restore_counter, epicfight:penalty] for epicfight:impact_guard
+[23Mar2026 00:16:00.758] [main/INFO] [epicfight/]: Data keys [epicfight:resisting_damage_type, epicfight:stacks, epicfight:tick_record] for epicfight:adaptive_skin
+[23Mar2026 00:16:00.758] [main/INFO] [epicfight/]: Data keys [epicfight:tick_record] for epicfight:adrenaline_fiend
+[23Mar2026 00:16:00.758] [main/INFO] [epicfight/]: Data keys [epicfight:stacks, epicfight:entity_id] for epicfight:bonebreaker
+[23Mar2026 00:16:00.759] [main/INFO] [epicfight/]: Data keys [epicfight:entity_id, epicfight:tick_record] for epicfight:vengeance
+[23Mar2026 00:16:00.759] [main/INFO] [epicfight/]: Data keys [epicfight:fall_distance, epicfight:slam_protect_next_fall] for epicfight:meteor_slam
+[23Mar2026 00:16:00.759] [main/INFO] [epicfight/]: Data keys [epicfight:stacks] for epicfight:revelation
+[23Mar2026 00:16:00.759] [main/INFO] [epicfight/]: Data keys [epicfight:slam_protect_next_fall] for epicfight:demolition_leap
+[23Mar2026 00:16:00.759] [main/INFO] [epicfight/]: Data keys [epicfight:jump_key_pressed_last_tick, epicfight:jump_count, epicfight:slam_protect_next_fall] for epicfight:phantom_ascent
+[23Mar2026 00:16:00.759] [main/INFO] [epicfight/]: Data keys [epicfight:last_hit_count] for epicfight:grasping_spire
+[23Mar2026 00:16:00.759] [main/INFO] [epicfight/]: Data keys [epicfight:sheath] for epicfight:battojutsu_passive
+[23Mar2026 00:16:00.759] [main/INFO] [epicfight/]: Data keys [epicfight:sheath] for epicfight:battojutsu
+[23Mar2026 00:16:00.759] [main/INFO] [epicfight/]: Data keys [epicfight:combo_counter] for epicfight:blade_rush
+[23Mar2026 00:16:00.759] [main/INFO] [epicfight/]: Data keys [epicfight:thrown_trident_entity_id] for epicfight:everlasting_allegiance
+[23Mar2026 00:16:00.760] [main/INFO] [epicfight/]: Data keys [wom:target_id] for wom:ender_obscuris
+[23Mar2026 00:16:00.760] [main/INFO] [epicfight/]: Data keys [wom:timer, wom:dodge, wom:timer_refresh] for wom:dodge_master
+[23Mar2026 00:16:00.760] [main/INFO] [epicfight/]: Data keys [wom:cooldown, wom:registered_health, wom:active, wom:timer, wom:dodge, wom:registered_position, wom:timer_refresh] for wom:time_travel
+[23Mar2026 00:16:00.760] [main/INFO] [epicfight/]: Data keys [wom:cooldown] for wom:punishment_kick
+[23Mar2026 00:16:00.760] [main/INFO] [epicfight/]: Data keys [wom:parrying, wom:last_active, epicfight:penalty_restore_counter, wom:consumprion_value, epicfight:penalty] for wom:counter_attack
+[23Mar2026 00:16:00.760] [main/INFO] [epicfight/]: Data keys [wom:cooldown, wom:holding_stance, epicfight:penalty_restore_counter, wom:timer, wom:consumprion_value, wom:vengence_duration, wom:charge, epicfight:penalty, wom:timer_refresh] for wom:vengeful_parry
+[23Mar2026 00:16:00.760] [main/INFO] [epicfight/]: Data keys [wom:parrying, wom:cooldown, epicfight:penalty_restore_counter, wom:charge, epicfight:penalty] for wom:perfect_bulwark
+[23Mar2026 00:16:00.760] [main/INFO] [epicfight/]: Data keys [wom:cycle, wom:charge] for wom:soul_protection
+[23Mar2026 00:16:00.761] [main/INFO] [epicfight/]: Data keys [wom:cycle, wom:charge] for wom:shulker_cloak
+[23Mar2026 00:16:00.761] [main/INFO] [epicfight/]: Data keys [epicfight:penalty_restore_counter, wom:active, wom:timer, epicfight:penalty] for wom:buster_parade
+[23Mar2026 00:16:00.761] [main/INFO] [epicfight/]: Data keys [wom:duree, wom:active, wom:timer, wom:timer_refresh] for wom:pain_anticipation
+[23Mar2026 00:16:00.761] [main/INFO] [epicfight/]: Data keys [wom:duree, wom:active, wom:timer, wom:timer_refresh] for wom:latent_retribution
+[23Mar2026 00:16:00.761] [main/INFO] [epicfight/]: Data keys [wom:rate, wom:power] for wom:critical_knowledge
+[23Mar2026 00:16:00.761] [main/INFO] [epicfight/]: Data keys [wom:max_shield, wom:cooldown, wom:recovery_rate] for wom:heart_shield
+[23Mar2026 00:16:00.761] [main/INFO] [epicfight/]: Data keys [wom:melody_index, wom:saved_elapsed_time, wom:step] for wom:dancing_blade
+[23Mar2026 00:16:00.761] [main/INFO] [epicfight/]: Data keys [wom:cycle, wom:duree, wom:active, wom:timer, wom:timer_refresh, wom:stage] for wom:meditation
+[23Mar2026 00:16:00.762] [main/INFO] [epicfight/]: Data keys [wom:cooldown] for wom:dopamine
+[23Mar2026 00:16:00.762] [main/INFO] [epicfight/]: Data keys [wom:last_active] for wom:manipulator
+[23Mar2026 00:16:00.762] [main/INFO] [epicfight/]: Data keys [wom:stack, wom:rate, wom:power, wom:timer] for wom:lethal_focus
+[23Mar2026 00:16:00.762] [main/INFO] [epicfight/]: Data keys [wom:wall_running, wom:wall_glide, wom:angle, wom:jump_key_up, wom:timer, wom:timer_refresh] for wom:spider_techniques
+[23Mar2026 00:16:00.762] [main/INFO] [epicfight/]: Data keys [wom:mermaid_movement, wom:cooldown, wom:diving, wom:water_dashing, wom:crawling, wom:jump_key_up, wom:consumprion_value] for wom:aqua_maneuvre
+[23Mar2026 00:16:00.762] [main/INFO] [epicfight/]: Data keys [wom:buffing, wom:wall_running, wom:wall_glide, wom:verso, wom:active, wom:timer, wom:consumprion_value, wom:stage] for wom:natural_sprinter
+[23Mar2026 00:16:00.762] [main/INFO] [epicfight/]: Data keys [wom:timer] for wom:lunatic_vivacity
+[23Mar2026 00:16:00.762] [main/INFO] [epicfight/]: Data keys [wom:registered_health, wom:timer, wom:consumprion_value] for wom:voodoo_magic
+[23Mar2026 00:16:00.763] [main/INFO] [epicfight/]: Data keys [wom:target_id, wom:target_distance] for wom:back_and_forth
+[23Mar2026 00:16:00.763] [main/INFO] [epicfight/]: Data keys [wom:cooldown, wom:combo] for wom:shooting_style
+[23Mar2026 00:16:00.763] [main/INFO] [epicfight/]: Data keys [wom:active, wom:timer] for wom:proximity_exploiter
+[23Mar2026 00:16:00.763] [main/INFO] [epicfight/]: Data keys [wom:stack, wom:timer] for wom:all_eyes_on_you
+[23Mar2026 00:16:00.763] [main/INFO] [epicfight/]: Data keys [wom:stack, wom:timer] for wom:all_eyes_on_me
+[23Mar2026 00:16:00.763] [main/INFO] [epicfight/]: Data keys [wom:cooldown, wom:timer] for wom:avatar_of_might
+[23Mar2026 00:16:00.763] [main/INFO] [epicfight/]: Data keys [wom:stack, wom:active, wom:attacks] for wom:agony_plunge
+[23Mar2026 00:16:00.763] [main/INFO] [epicfight/]: Data keys [wom:charging, wom:movespeed, wom:charged_attack, wom:active, wom:timer, wom:charging_time, wom:saved_charge, wom:timer_refresh, wom:charged] for wom:torment_passive
+[23Mar2026 00:16:00.763] [main/INFO] [epicfight/]: Data keys [wom:active, wom:timer, wom:timer_refresh] for wom:true_berserk
+[23Mar2026 00:16:00.763] [main/INFO] [epicfight/]: Data keys [wom:stack] for wom:herrscher_passive
+[23Mar2026 00:16:00.764] [main/INFO] [epicfight/]: Data keys [wom:buffing, wom:verso, wom:buffed, wom:expiation, wom:strenght, wom:timer, wom:timer_refresh, wom:redemptioon] for wom:plunder_perdition
+[23Mar2026 00:16:00.764] [main/INFO] [epicfight/]: Data keys [wom:sheath] for wom:satsujin_passive
+[23Mar2026 00:16:00.764] [main/INFO] [epicfight/]: Data keys [wom:charging, wom:stack, wom:second_draw, wom:active, wom:timedslash, wom:timer_refresh, wom:cooldown, wom:holding_stance, wom:frequency, wom:timer, wom:damage, wom:saved_charge, wom:charge, wom:attacks] for wom:sakura_state
+[23Mar2026 00:16:00.764] [main/INFO] [epicfight/]: Data keys [wom:cooldown, wom:combo, wom:reload_cooldown, wom:nofalldamage, wom:using_item, wom:shoot, wom:zoom] for wom:ender_blast
+[23Mar2026 00:16:00.764] [main/INFO] [epicfight/]: Data keys [wom:cooldown, wom:combo, wom:reload_cooldown, wom:nofalldamage, wom:using_item, wom:shoot, wom:zoom, wom:side] for wom:ender_fusion
+[23Mar2026 00:16:00.764] [main/INFO] [epicfight/]: Data keys [wom:parrying, wom:cooldown, wom:combo, wom:holding_stance, wom:gesetz_sprengkopf, wom:guard_point, wom:guard_point_result, wom:charging_time, wom:charged] for wom:regierung
+[23Mar2026 00:16:00.764] [main/INFO] [epicfight/]: Data keys [wom:crescent, wom:echo, wom:timer, wom:timer_refresh, wom:lunar_eclipse_stack] for wom:lunar_eclipse
+[23Mar2026 00:16:00.764] [main/INFO] [epicfight/]: Data keys [wom:idle, wom:verso] for wom:lunar_echo_passive
+[23Mar2026 00:16:00.764] [main/INFO] [epicfight/]: Data keys [wom:ascending, wom:zoom_cooldown, wom:witheraftereffect, wom:blackhole_active, wom:shoot_cooldown, wom:darkness_target_hited, wom:blackhole, wom:darkness_target_vec, wom:blackhole_vec, wom:active, wom:shoot, wom:darkness_activate_portal, wom:zoom, wom:timer_refresh, wom:darkness_target, wom:darkness_portal_timer, wom:serius_focus, wom:serius_focus_cooldown, wom:blackhole_timer, wom:darkness_portal_angle, wom:darkness_portal_vec, wom:witherccatharsis, wom:darkness_target_reaped, wom:timer] for wom:demonic_ascension
+[23Mar2026 00:16:00.765] [main/INFO] [epicfight/]: Data keys [wom:blink, wom:basic_attack, wom:withercurse, wom:idle, wom:catharsis, wom:lapse, wom:particle] for wom:demon_mark_passive
+[23Mar2026 00:16:00.765] [main/INFO] [epicfight/]: Data keys [wom:charging, wom:solar_obscuridad_ta_timer, wom:heat_level, wom:heating_speed, wom:timed_attack, wom:solar_infernio, wom:timer_refresh, wom:cycle, wom:stored_heat_level, wom:solar_crematorio, wom:timer, wom:particle, wom:charge, wom:solar_obscuridad] for wom:solar_arcano
+[23Mar2026 00:16:00.765] [main/INFO] [epicfight/]: Data keys [wom:charging, wom:solar_obscuridad_ta_timer, wom:heat_level, wom:heating_speed, wom:timed_attack, wom:solar_infernio, wom:timer_refresh, wom:cycle, wom:stored_heat_level, wom:solar_crematorio, wom:timer, wom:particle, wom:charge, wom:solar_obscuridad] for wom:solar_passive
+[23Mar2026 00:16:00.765] [main/INFO] [epicfight/]: Data keys [wom:serius_focus, wom:serius_focus_cooldown] for wom:rechargement
+[23Mar2026 00:16:00.765] [main/INFO] [epicfight/]: Data keys [wom:shell_number, wom:shell_delay, wom:bullet_loaded_old, wom:shell_anim, wom:active, wom:bullet_overloaded, wom:bullet_loaded, wom:super_reload] for wom:napoleon_passive
+[23Mar2026 00:16:00.936] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/holap23/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23249!/assets/.mcassetsroot' uses unexpected schema
+[23Mar2026 00:16:00.936] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/holap23/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23249!/data/.mcassetsroot' uses unexpected schema
+[23Mar2026 00:16:03.100] [main/INFO] [Vinery/]: Registered /wine command
+[23Mar2026 00:16:03.135] [main/INFO] [bountiful/]: Adding serverside commands..
+[23Mar2026 00:16:03.545] [main/INFO] [com.sk89q.worldedit.extension.platform.PlatformCommandManager/]: Registering commands with com.sk89q.worldedit.forge.ForgePlatform
+[23Mar2026 00:16:03.612] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
+[23Mar2026 00:16:03.752] [Worker-Main-2/WARN] [artifacts.Artifacts/]: Tag entries for curios:tags/items/magic_book.json cleared by tombstone-1.20.1-8.8.6.jar
+[23Mar2026 00:16:06.405] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Datapack tried to redefine minecraft:empty loot table, ignoring
+[23Mar2026 00:16:06.591] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe irons_spellbooks:curios/concentration_amulet
+com.google.gson.JsonSyntaxException: Unknown item 'irons_spellbooks:mithril_ingot'
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23249!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151278_(ShapedRecipe.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23249!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_43919_(Ingredient.java:219) ~[server-1.20.1-20230612.114412-srg.jar%23249!/:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:27) ~[forge-1.20.1-47.4.16-universal.jar%23254!/:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:148) ~[forge-1.20.1-47.4.16-universal.jar%23254!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_288218_(Ingredient.java:194) ~[server-1.20.1-20230612.114412-srg.jar%23249!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_44210_(ShapedRecipe.java:278) ~[server-1.20.1-20230612.114412-srg.jar%23249!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe$Serializer.m_6729_(ShapedRecipe.java:306) ~[server-1.20.1-20230612.114412-srg.jar%23249!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe$Serializer.m_6729_(ShapedRecipe.java:301) ~[server-1.20.1-20230612.114412-srg.jar%23249!/:?]
+	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.20.1-47.4.16-universal.jar%23254!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:171) ~[server-1.20.1-20230612.114412-srg.jar%23249!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23249!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23249!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23249!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23249!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23249!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23249!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23249!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.4.16.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.4.16.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.4.16.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[23Mar2026 00:16:06.791] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 26 recipes
+[23Mar2026 00:16:06.839] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/decorations/chest: Missing criteria, expected to find a JsonObject
+[23Mar2026 00:16:06.912] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/redstone/trapped_chest: Missing criteria, expected to find a JsonObject
+[23Mar2026 00:16:06.996] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 4466 advancements
+[23Mar2026 00:16:10.136] [main/INFO] [bountiful/]: Trying to load unloaded files from: config/bountiful/bounty_pools
+[23Mar2026 00:16:10.141] [main/INFO] [bountiful/]: Trying to load unloaded files from: config/bountiful/bounty_decrees
+[23Mar2026 00:16:10.150] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 14 curio slots
+[23Mar2026 00:16:10.157] [main/ERROR] [top.theillusivec4.curios.Curios/]: talisman is not a registered slot type!
+[23Mar2026 00:16:10.158] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 11 curio entities
+[23Mar2026 00:16:12.158] [main/INFO] [evilcraft/]: 19 Broom modifiers can be applied!
+[23Mar2026 00:16:12.242] [main/INFO] [citadel/]: merged 6 surface rules with vanilla rule SequenceRuleSource
+[23Mar2026 00:16:12.475] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[23Mar2026 00:16:12.476] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[23Mar2026 00:16:12.476] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[23Mar2026 00:16:12.478] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[23Mar2026 00:16:12.673] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[23Mar2026 00:16:12.705] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[23Mar2026 00:16:12.864] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[23Mar2026 00:16:12.865] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[23Mar2026 00:16:12.866] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[23Mar2026 00:16:12.867] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[23Mar2026 00:16:12.941] [Server thread/INFO] [Puzzles Lib/]: Loading server config for enchantinginfuser
+[23Mar2026 00:16:13.549] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[23Mar2026 00:16:19.656] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.CribEntity from class forge.net.mca.util.network.datasync.CDataParameter
+[23Mar2026 00:16:19.657] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.CribEntity from class forge.net.mca.util.network.datasync.CEnumParameter
+[23Mar2026 00:16:19.657] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.CribEntity from class forge.net.mca.util.network.datasync.CEnumParameter
+[23Mar2026 00:16:19.733] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[23Mar2026 00:16:19.734] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[23Mar2026 00:16:19.734] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[23Mar2026 00:16:19.734] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[23Mar2026 00:16:19.734] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[23Mar2026 00:16:19.735] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[23Mar2026 00:16:19.735] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[23Mar2026 00:16:19.735] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CEnumParameter
+[23Mar2026 00:16:19.735] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[23Mar2026 00:16:19.736] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[23Mar2026 00:16:19.736] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[23Mar2026 00:16:19.736] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[23Mar2026 00:16:19.737] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[23Mar2026 00:16:19.737] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[23Mar2026 00:16:19.737] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[23Mar2026 00:16:19.737] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[23Mar2026 00:16:19.738] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[23Mar2026 00:16:19.738] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[23Mar2026 00:16:19.738] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[23Mar2026 00:16:19.738] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CEnumParameter
+[23Mar2026 00:16:19.739] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[23Mar2026 00:16:19.739] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[23Mar2026 00:16:19.739] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CEnumParameter
+[23Mar2026 00:16:19.740] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[23Mar2026 00:16:19.740] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CEnumParameter
+[23Mar2026 00:16:19.740] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CEnumParameter
+[23Mar2026 00:16:19.740] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[23Mar2026 00:16:19.741] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[23Mar2026 00:16:19.741] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[23Mar2026 00:16:19.741] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[23Mar2026 00:16:19.741] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[23Mar2026 00:16:19.742] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[23Mar2026 00:16:19.742] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[23Mar2026 00:16:19.742] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[23Mar2026 00:16:19.742] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[23Mar2026 00:16:19.743] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[23Mar2026 00:16:19.743] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[23Mar2026 00:16:19.861] [Server thread/WARN] [mixin/]: Mixin apply failed mixins.epicfight.json:common.MixinCrossbowAttack -> net.minecraft.world.entity.ai.behavior.CrossbowAttack: org.spongepowered.asm.mixin.injection.throwables.InvalidInjectionException Critical injection failure: @Redirect annotation on epicfight$crossbowAttack could not find any targets matching 'crossbowAttack' in net.minecraft.world.entity.ai.behavior.CrossbowAttack. Using refmap mixins.epicfight.refmap.json [ -> redirect$zbm000$epicfight$crossbowAttack(Lnet/minecraft/world/entity/monster/RangedAttackMob;Lnet/minecraft/world/entity/LivingEntity;F)V -> Parse]
+org.spongepowered.asm.mixin.injection.throwables.InvalidInjectionException: Critical injection failure: @Redirect annotation on epicfight$crossbowAttack could not find any targets matching 'crossbowAttack' in net.minecraft.world.entity.ai.behavior.CrossbowAttack. Using refmap mixins.epicfight.refmap.json [ -> redirect$zbm000$epicfight$crossbowAttack(Lnet/minecraft/world/entity/monster/RangedAttackMob;Lnet/minecraft/world/entity/LivingEntity;F)V -> Parse]
+	at org.spongepowered.asm.mixin.injection.struct.InjectionInfo.validateTargets(InjectionInfo.java:656) ~[mixin-0.8.5.jar%2365!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.injection.struct.InjectionInfo.findTargets(InjectionInfo.java:587) ~[mixin-0.8.5.jar%2365!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.injection.struct.InjectionInfo.readAnnotation(InjectionInfo.java:330) ~[mixin-0.8.5.jar%2365!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.injection.struct.InjectionInfo.<init>(InjectionInfo.java:316) ~[mixin-0.8.5.jar%2365!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.injection.struct.InjectionInfo.<init>(InjectionInfo.java:308) ~[mixin-0.8.5.jar%2365!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.injection.struct.RedirectInjectionInfo.<init>(RedirectInjectionInfo.java:44) ~[mixin-0.8.5.jar%2365!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at jdk.internal.reflect.GeneratedConstructorAccessor28.newInstance(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:481) ~[?:?]
+	at org.spongepowered.asm.mixin.injection.struct.InjectionInfo$InjectorEntry.create(InjectionInfo.java:149) ~[mixin-0.8.5.jar%2365!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.injection.struct.InjectionInfo.parse(InjectionInfo.java:708) ~[mixin-0.8.5.jar%2365!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.MixinTargetContext.prepareInjections(MixinTargetContext.java:1311) ~[mixin-0.8.5.jar%2365!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.prepareInjections(MixinApplicatorStandard.java:1042) ~[mixin-0.8.5.jar%2365!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.applyMixin(MixinApplicatorStandard.java:393) ~[mixin-0.8.5.jar%2365!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.apply(MixinApplicatorStandard.java:325) ~[mixin-0.8.5.jar%2365!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.TargetClassContext.apply(TargetClassContext.java:383) ~[mixin-0.8.5.jar%2365!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.TargetClassContext.applyMixins(TargetClassContext.java:365) ~[mixin-0.8.5.jar%2365!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:363) ~[mixin-0.8.5.jar%2365!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClass(MixinTransformer.java:250) ~[mixin-0.8.5.jar%2365!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.service.modlauncher.MixinTransformationHandler.processClass(MixinTransformationHandler.java:131) ~[mixin-0.8.5.jar%2365!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.launch.MixinLaunchPluginLegacy.processClass(MixinLaunchPluginLegacy.java:131) ~[mixin-0.8.5.jar%2365!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at cpw.mods.modlauncher.serviceapi.ILaunchPluginService.processClassWithFlags(ILaunchPluginService.java:156) ~[modlauncher-10.0.9.jar%2355!/:10.0.9+10.0.9+main.dcd20f30]
+	at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:88) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135) ~[securejarhandler-2.1.10.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?]
+	at net.minecraft.world.entity.monster.piglin.PiglinAi.m_34903_(PiglinAi.java:144) ~[server-1.20.1-20230612.114412-srg.jar%23249!/:?]
+	at net.minecraft.world.entity.monster.piglin.PiglinAi.m_34840_(PiglinAi.java:118) ~[server-1.20.1-20230612.114412-srg.jar%23249!/:?]
+	at net.minecraft.world.entity.monster.piglin.Piglin.m_8075_(Piglin.java:200) ~[server-1.20.1-20230612.114412-srg.jar%23249!/:?]
+	at net.minecraft.world.entity.LivingEntity.<init>(LivingEntity.java:245) ~[server-1.20.1-20230612.114412-srg.jar%23249!/:?]
+	at net.minecraft.world.entity.Mob.<init>(Mob.java:123) ~[server-1.20.1-20230612.114412-srg.jar%23249!/:?]
+	at net.minecraft.world.entity.PathfinderMob.<init>(PathfinderMob.java:14) ~[server-1.20.1-20230612.114412-srg.jar%23249!/:?]
+	at net.minecraft.world.entity.monster.Monster.<init>(Monster.java:31) ~[server-1.20.1-20230612.114412-srg.jar%23249!/:?]
+	at net.minecraft.world.entity.monster.piglin.AbstractPiglin.<init>(AbstractPiglin.java:32) ~[server-1.20.1-20230612.114412-srg.jar%23249!/:?]
+	at net.minecraft.world.entity.monster.piglin.Piglin.<init>(Piglin.java:79) ~[server-1.20.1-20230612.114412-srg.jar%23249!/:?]
+	at net.minecraft.world.entity.EntityType.m_20615_(EntityType.java:525) ~[server-1.20.1-20230612.114412-srg.jar%23249!/:?]
+	at ovh.corail.tombstone.helper.TamableType.init(TamableType.java:81) ~[tombstone-1.20.1-8.8.6.jar%23240!/:8.8.6]
+	at ovh.corail.tombstone.event.EventHandler.onWorldLoad(EventHandler.java:256) ~[tombstone-1.20.1-8.8.6.jar%23240!/:8.8.6]
+	at ovh.corail.tombstone.event.__EventHandler_onWorldLoad_Load.invoke(.dynamic) ~[tombstone-1.20.1-8.8.6.jar%23240!/:8.8.6]
+	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:55) ~[eventbus-6.2.33.jar%2352!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:312) ~[eventbus-6.2.33.jar%2352!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:298) ~[eventbus-6.2.33.jar%2352!/:?]
+	at net.minecraft.server.MinecraftServer.m_129815_(MinecraftServer.java:343) ~[server-1.20.1-20230612.114412-srg.jar%23249!/:?]
+	at net.minecraft.server.MinecraftServer.m_130006_(MinecraftServer.java:308) ~[server-1.20.1-20230612.114412-srg.jar%23249!/:?]
+	at net.minecraft.server.dedicated.DedicatedServer.m_7038_(DedicatedServer.java:164) ~[server-1.20.1-20230612.114412-srg.jar%23249!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:634) ~[server-1.20.1-20230612.114412-srg.jar%23249!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23249!/:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[23Mar2026 00:16:20.117] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[23Mar2026 00:16:21.504] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[23Mar2026 00:16:21.507] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[23Mar2026 00:16:21.507] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[23Mar2026 00:16:21.619] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[23Mar2026 00:16:21.672] [Netty Epoll Server IO #1/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[23Mar2026 00:16:22.118] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[23Mar2026 00:16:22.620] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[23Mar2026 00:16:23.122] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[23Mar2026 00:16:23.680] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[23Mar2026 00:16:24.118] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 1%
+[23Mar2026 00:16:24.618] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 82%
+[23Mar2026 00:16:24.731] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 4614 ms
+[23Mar2026 00:16:24.731] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (11.843s)! For help, type "help"
+[23Mar2026 00:16:24.814] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[23Mar2026 00:16:24.829] [Server thread/INFO] [com.becks.uniquedungeons.UniqueDungeons/]: HELLO from server starting
+[23Mar2026 00:16:24.833] [Server thread/INFO] [bountiful/]: Registering Bounty Board Jigsaw Piece for Village Type: plains
+[23Mar2026 00:16:24.834] [Server thread/INFO] [bountiful/]: Registering Bounty Board Jigsaw Piece for Village Type: savanna
+[23Mar2026 00:16:24.835] [Server thread/INFO] [bountiful/]: Registering Bounty Board Jigsaw Piece for Village Type: snowy
+[23Mar2026 00:16:24.835] [Server thread/INFO] [bountiful/]: Registering Bounty Board Jigsaw Piece for Village Type: taiga
+[23Mar2026 00:16:24.835] [Server thread/INFO] [bountiful/]: Registering Bounty Board Jigsaw Piece for Village Type: desert
+[23Mar2026 00:16:24.839] [Server thread/INFO] [cyclopscore/]: Loading infobook /data/cyclopscore/info/test.xml
+[23Mar2026 00:16:24.847] [Server thread/INFO] [dynamiclights/]: [Dynamic Lights] Sending global config to world ...
+[23Mar2026 00:16:24.863] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {iceandfire:fire_dragon_roost=true, iceandfire:fire_lily=true, iceandfire:spawn_dragon_skeleton_fire=true, iceandfire:lightning_dragon_roost=true, iceandfire:spawn_dragon_skeleton_lightning=true, iceandfire:ice_dragon_roost=true, iceandfire:ice_dragon_cave=true, iceandfire:lightning_dragon_cave=true, iceandfire:cyclops_cave=true, iceandfire:spawn_wandering_cyclops=true, iceandfire:spawn_sea_serpent=true, iceandfire:frost_lily=true, iceandfire:hydra_cave=true, iceandfire:lightning_lily=true, iceandfire:pixie_village=true, iceandfire:myrmex_hive_jungle=true, iceandfire:myrmex_hive_desert=true, iceandfire:silver_ore=true, iceandfire:siren_island=true, iceandfire:spawn_dragon_skeleton_ice=true, iceandfire:spawn_stymphalian_bird=true, iceandfire:fire_dragon_cave=true, iceandfire:sapphire_ore=true, iceandfire:spawn_hippocampus=true, iceandfire:spawn_death_worm=true}
+[23Mar2026 00:16:24.864] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {TROLL_S=true, HIPPOGRYPH=true, AMPHITHERE=true, COCKATRICE=true, TROLL_M=true, DREAD_LICH=true, TROLL_F=true}
+[23Mar2026 00:16:24.864] [Server thread/INFO] [evilcraft/]: Loading infobook /data/evilcraft/info/book.xml
+[23Mar2026 00:16:24.899] [Server thread/WARN] [evilcraft/]: Invalid appendix info_book.evilcraft.second_age.tools.broom from mod evilcraft in an infobook: The broom modifier evilcraft:witherer has no valid items
+[23Mar2026 00:16:24.899] [Server thread/WARN] [evilcraft/]: Invalid appendix info_book.evilcraft.second_age.tools.broom from mod evilcraft in an infobook: The broom modifier evilcraft:hungerer has no valid items
+[23Mar2026 00:16:24.900] [Server thread/WARN] [evilcraft/]: Invalid appendix info_book.evilcraft.second_age.tools.broom from mod evilcraft in an infobook: The broom modifier evilcraft:kamikaze has no valid items
+[23Mar2026 00:16:24.900] [Server thread/WARN] [evilcraft/]: Invalid appendix info_book.evilcraft.second_age.tools.broom from mod evilcraft in an infobook: The broom modifier evilcraft:withershield has no valid items
+[23Mar2026 00:16:29.304] [Server thread/INFO] [Quad/]: [Quad] cached original fuel map with count of: 436
+[23Mar2026 00:16:33.116] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2012ms or 40 ticks behind
+[23Mar2026 00:16:50.198] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: JUAN_D[/100.94.220.37:50484] logged in with entity id 1124 at (-450.5736353837175, -43.0, -372.4668641956789)
+[23Mar2026 00:16:50.239] [Server thread/INFO] [Modonomicon/]: Building books ...
+[23Mar2026 00:16:50.246] [Server thread/INFO] [Modonomicon/]: Books built.
+[23Mar2026 00:16:50.316] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: JUAN_D joined the game
+[23Mar2026 00:16:50.864] [Server thread/INFO] [tannyjung.tht.ThtMod/]: THT : Run a test to get world height limit and the result is 320.0
+[23Mar2026 00:16:50.866] [Server thread/INFO] [Jade/]: Syncing config to JUAN_D (981de7bf-aff5-3ebe-9eb2-5b5f7c8f79c4)
+[23Mar2026 00:17:55.569] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: JUAN_D has made the advancement [Acquire Hardware]
+[23Mar2026 00:18:05.353] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: JUAN_D has made the advancement [Isn't It Iron Pick]
+[23Mar2026 00:20:01.265] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: JUAN_D has made the advancement [Diamonds!]
+[23Mar2026 00:20:48.634] [Worker-Main-2/INFO] [citadel/]: merged 6 surface rules with vanilla rule SequenceRuleSource
+[23Mar2026 00:21:00.529] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: JUAN_D was slain by Skeleton
+[23Mar2026 00:21:00.558] [Server thread/INFO] [tombstone/]: The player JUAN_D has successfully been saved
+[23Mar2026 00:22:08.465] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: JUAN_D has made the advancement [Easter Egg Searcher]
+[23Mar2026 00:24:31.780] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: JUAN_D fell from a high place
+[23Mar2026 00:24:31.783] [Server thread/INFO] [tombstone/]: The player JUAN_D has successfully been saved
+[23Mar2026 00:24:48.968] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: JUAN_D lost connection: Disconnected
+[23Mar2026 00:24:48.969] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: JUAN_D left the game
+[23Mar2026 00:25:04.780] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: JUAN_D[/100.94.220.37:50553] logged in with entity id 2974 at (-390.19978942866294, 59.871953612479025, -404.9550751844125)
+[23Mar2026 00:25:04.811] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: JUAN_D joined the game
+[23Mar2026 00:25:04.873] [Server thread/INFO] [tannyjung.tht.ThtMod/]: THT : Run a test to get world height limit and the result is 320.0
+[23Mar2026 00:25:04.874] [Server thread/INFO] [Jade/]: Syncing config to JUAN_D (981de7bf-aff5-3ebe-9eb2-5b5f7c8f79c4)
+[23Mar2026 00:27:27.073] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: JUAN_D was doomed to fall by Skeleton
+[23Mar2026 00:27:27.076] [Server thread/INFO] [tombstone/]: The player JUAN_D has successfully been saved
+[23Mar2026 00:32:37.815] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: JUAN_D was slain by Skeleton
+[23Mar2026 00:32:37.825] [Server thread/INFO] [tombstone/]: The player JUAN_D has successfully been saved
+[23Mar2026 00:32:42.882] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Xentros_2804[/100.66.192.75:60217] logged in with entity id 4748 at (-1058.5770243655518, 113.0, -479.5791041715311)
+[23Mar2026 00:32:42.939] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Xentros_2804 joined the game
+[23Mar2026 00:32:42.952] [Server thread/INFO] [Jade/]: Syncing config to Xentros_2804 (8055371c-7776-3ab4-90e3-ae76974b772a)
+[23Mar2026 00:33:12.707] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Xentros_2804: Gave 1 [Ender Pearl] to JUAN_D]
+[23Mar2026 00:33:41.372] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2017ms or 40 ticks behind
+[23Mar2026 00:33:59.212] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2857ms or 57 ticks behind
+[23Mar2026 00:34:17.019] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2014ms or 40 ticks behind
+[23Mar2026 00:34:34.137] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2132ms or 42 ticks behind
+[23Mar2026 00:34:51.423] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2018ms or 40 ticks behind
+[23Mar2026 00:35:05.937] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[23Mar2026 00:35:05.948] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[23Mar2026 00:35:08.672] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2018ms or 40 ticks behind
+[23Mar2026 00:35:26.054] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2399ms or 47 ticks behind
+[23Mar2026 00:35:56.408] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2003ms or 40 ticks behind
+[23Mar2026 00:36:20.146] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 8741ms or 174 ticks behind
+[23Mar2026 00:36:38.704] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3599ms or 71 ticks behind
+[23Mar2026 00:37:03.381] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: JUAN_D lost connection: Disconnected
+[23Mar2026 00:37:03.381] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: JUAN_D left the game
+[23Mar2026 00:37:14.305] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Xentros_2804 has made the advancement [Getting an Upgrade]
+[23Mar2026 00:39:27.989] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: JUAN_D[/100.94.220.37:52895] logged in with entity id 18465 at (-487.95940706888234, 70.0, -310.69999998807907)
+[23Mar2026 00:39:28.013] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: JUAN_D joined the game
+[23Mar2026 00:39:28.037] [Server thread/INFO] [Jade/]: Syncing config to JUAN_D (981de7bf-aff5-3ebe-9eb2-5b5f7c8f79c4)
+[23Mar2026 00:40:57.697] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=3, y=-53, z=18}
+[23Mar2026 00:40:57.698] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=3, y=-53, z=19}
+[23Mar2026 00:40:57.898] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-1, y=-56, z=26}
+[23Mar2026 00:40:57.898] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-2, y=-56, z=26}
+[23Mar2026 00:40:57.898] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=0, y=-56, z=26}
+[23Mar2026 00:41:51.878] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2073ms or 41 ticks behind
+[23Mar2026 00:42:09.311] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2456ms or 49 ticks behind
+[23Mar2026 00:42:28.963] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2008ms or 40 ticks behind
+[23Mar2026 00:42:46.393] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2438ms or 48 ticks behind
+[23Mar2026 00:42:51.243] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Xentros_2804 has made the advancement [Fruits of the Field]
+[23Mar2026 00:43:05.423] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4068ms or 81 ticks behind
+[23Mar2026 00:43:22.863] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2458ms or 49 ticks behind
+[23Mar2026 00:43:39.867] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2012ms or 40 ticks behind
+[23Mar2026 00:43:59.150] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4295ms or 85 ticks behind
+[23Mar2026 00:44:21.728] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2023ms or 40 ticks behind
+[23Mar2026 00:44:40.755] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind
+[23Mar2026 00:44:50.848] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-222, y=-51, z=-80}
+[23Mar2026 00:45:28.259] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2004ms or 40 ticks behind
+[23Mar2026 00:46:34.637] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2032ms or 40 ticks behind
+[23Mar2026 00:46:56.652] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 7047ms or 140 ticks behind
+[23Mar2026 00:47:08.164] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Xentros_2804 has made the advancement [Monster Hunter]
+[23Mar2026 00:47:37.610] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2006ms or 40 ticks behind
+[23Mar2026 00:47:41.209] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: JUAN_D moved too quickly! -9.217632849898905,2.7531999805212024,3.455990143186
+[23Mar2026 00:47:57.987] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5382ms or 107 ticks behind
+[23Mar2026 00:48:16.583] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3628ms or 72 ticks behind
+[23Mar2026 00:48:19.320] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Xentros_2804 moved too quickly! -1.195381454984954,3.948516302711724,9.20081589429492
+[23Mar2026 00:48:29.984] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Xentros_2804 has made the advancement [Ambush]
+[23Mar2026 00:48:34.998] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3443ms or 68 ticks behind
+[23Mar2026 00:48:46.730] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Xentros_2804 has made the advancement [Knowledge raises the soul]
+[23Mar2026 00:48:52.833] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2029ms or 40 ticks behind
+[23Mar2026 00:49:10.062] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2007ms or 40 ticks behind
+[23Mar2026 00:49:36.760] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2005ms or 40 ticks behind
+[23Mar2026 00:49:51.653] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Xentros_2804 was caught by Archevoker's fangs
+[23Mar2026 00:49:51.680] [Server thread/INFO] [tombstone/]: The player Xentros_2804 has successfully been saved
+[23Mar2026 00:49:59.533] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Xentros_2804: Teleported Xentros_2804 to -872.500000, 122.500000, -1063.500000]
+[23Mar2026 00:50:03.057] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Xentros_2804 has reached the goal [Here They Come]
+[23Mar2026 00:50:09.065] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Xentros_2804 has reached the goal [Chain Death]
+[23Mar2026 00:50:09.067] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Xentros_2804 went off with a bang thanks to Archevoker
+[23Mar2026 00:50:09.090] [Server thread/INFO] [tombstone/]: The player Xentros_2804 has successfully been saved
+[23Mar2026 00:50:12.064] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2009ms or 40 ticks behind
+[23Mar2026 00:50:14.912] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Xentros_2804: Teleported Xentros_2804 to -872.500000, 122.500000, -1061.500000]
+[23Mar2026 00:51:08.032] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Xentros_2804 lost connection: Disconnected
+[23Mar2026 00:51:08.033] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Xentros_2804 left the game
+[23Mar2026 00:54:20.982] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: JUAN_D has made the advancement [Minecraft Comes Alive]
+[23Mar2026 00:54:28.415] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: JUAN_D has made the advancement [Sweet Dreams]
+[23Mar2026 00:57:06.224] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2069ms or 41 ticks behind
+[23Mar2026 00:57:15.985] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[23Mar2026 00:57:23.925] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2720ms or 54 ticks behind
+[23Mar2026 00:58:04.225] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: JUAN_D was slain by Sea Serpent
+[23Mar2026 00:58:04.311] [Server thread/INFO] [tombstone/]: The player JUAN_D has successfully been saved
+[23Mar2026 00:58:08.267] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: JUAN_D lost connection: Disconnected
+[23Mar2026 00:58:08.267] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: JUAN_D left the game
